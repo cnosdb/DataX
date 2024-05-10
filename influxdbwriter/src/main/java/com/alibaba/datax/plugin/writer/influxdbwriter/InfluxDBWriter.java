@@ -27,7 +27,7 @@ import java.util.List;
 import java.util.Map;
 
 public class InfluxDBWriter extends Writer {
-    public final static String CFG_INFLUXDB_WRITE_API = "influxWriteAPI";
+    public final static String CFG_INFLUXDB_WRITE_API = "influxdbWriteAPI";
     public final static String CFG_TENANT = "tenant";
     public final static String CFG_DATABASE = "database";
     public final static String CFG_USERNAME = "username";
