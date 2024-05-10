@@ -1,6 +1,0 @@
-{
-  "name": "cnosdbreader",
-  "class": "com.alibaba.datax.plugin.reader.cnosdbreader.CnosDBReader",
-  "description": "TODO",
-  "developer": "cnosdb"
-}

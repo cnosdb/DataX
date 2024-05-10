@@ -1,0 +1,6 @@
+{
+  "name": "influxdbwriter",
+  "class": "com.alibaba.datax.plugin.writer.influxdbwriter.InfluxDBWriter",
+  "description": "TODO",
+  "developer": "cnosdb"
+}

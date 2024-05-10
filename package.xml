@@ -243,15 +243,15 @@
             </includes>
             <outputDirectory>datax</outputDirectory>
         </fileSet>
+<!--        <fileSet>-->
+<!--            <directory>sybasereader/target/datax-sybasereader/</directory>-->
+<!--            <includes>-->
+<!--                <include>**/*.*</include>-->
+<!--            </includes>-->
+<!--            <outputDirectory>datax</outputDirectory>-->
+<!--        </fileSet>-->
         <fileSet>
-            <directory>sybasereader/target/datax-sybasereader/</directory>
-            <includes>
-                <include>**/*.*</include>
-            </includes>
-            <outputDirectory>datax</outputDirectory>
-        </fileSet>
-        <fileSet>
-            <directory>cnosdbreader/target/datax-cnosdbreader/</directory>
+            <directory>influxdbreader/target/datax-influxdbreader/</directory>
             <includes>
                 <include>**/*.*</include>
             </includes>
@@ -532,15 +532,15 @@
             </includes>
             <outputDirectory>datax</outputDirectory>
         </fileSet>
+<!--        <fileSet>-->
+<!--            <directory>sybasewriter/target/datax-sybasewriter/</directory>-->
+<!--            <includes>-->
+<!--                <include>**/*.*</include>-->
+<!--            </includes>-->
+<!--            <outputDirectory>datax</outputDirectory>-->
+<!--        </fileSet>-->
         <fileSet>
-            <directory>sybasewriter/target/datax-sybasewriter/</directory>
-            <includes>
-                <include>**/*.*</include>
-            </includes>
-            <outputDirectory>datax</outputDirectory>
-        </fileSet>
-        <fileSet>
-            <directory>cnosdbwriter/target/datax-cnosdbwriter/</directory>
+            <directory>influxdbwriter/target/datax-influxdbwriter/</directory>
             <includes>
                 <include>**/*.*</include>
             </includes>
