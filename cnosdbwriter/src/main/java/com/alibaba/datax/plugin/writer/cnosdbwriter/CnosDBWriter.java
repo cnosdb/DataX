@@ -327,7 +327,7 @@ public class CnosDBWriter extends Writer {
         }
 
         private void writeCnosDB(CharSequence lpData) {
-            LOGGER.trace("sending lines to {}: {}", this.writeReqUrl, lpData);
+            LOGGER.info("sending lines to {}: {}", this.writeReqUrl, lpData);
             HttpPost req = HttpClientUtil.getPostRequest();
             req.setURI(URI.create(this.writeReqUrl));
             req.addHeader("Authorization", this.basicAuth);
