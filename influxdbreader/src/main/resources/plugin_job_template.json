@@ -1,0 +1,13 @@
+{
+  "name": "influxdbreader",
+  "parameter": {
+    "ip": "0.0.0.0",
+    "port": "8904",
+    "timeoutSeconds": 10,
+    "tenant": "influxdb",
+    "database": "public",
+    "username": "root",
+    "password": "root",
+    "sql": "select 1"
+  }
+}

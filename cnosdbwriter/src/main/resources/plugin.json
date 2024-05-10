@@ -1,6 +1,0 @@
-{
-  "name": "cnosdbwriter",
-  "class": "com.alibaba.datax.plugin.writer.cnosdbwriter.CnosDBWriter",
-  "description": "TODO",
-  "developer": "cnosdb"
-}
