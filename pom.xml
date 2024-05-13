@@ -82,6 +82,7 @@
         <module>starrocksreader</module>
         <module>sybasereader</module>
         <module>dorisreader</module>
+        <module>cnosdbreader</module>
         <!-- writer -->
         <module>mysqlwriter</module>
         <module>starrockswriter</module>

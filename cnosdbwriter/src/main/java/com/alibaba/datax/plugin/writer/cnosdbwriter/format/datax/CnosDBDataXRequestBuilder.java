@@ -70,6 +70,9 @@ public class CnosDBDataXRequestBuilder implements ICnosDBRequestBuilder {
         this.buffer.startWriteRecord(this.table);
         for (int i = 0; i < record.getColumnNumber(); i++) {
             Column col = record.getColumn(i);
+            if (col.getRawData() == null) {
+                continue;
+            }
             if (this.tagIndexes.containsKey(i)) {
                 this.buffer.appendTag(this.tagIndexes.get(i), col.asString());
             } else if (this.fieldIndexes.containsKey(i)) {
